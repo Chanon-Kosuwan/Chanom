@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>หน้าเว็บต้อนรับ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #a7d1f5;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 3em;
+    }
+
+    p {
+      color: #555;
+      font-size: 1.5em;
+    }
+
+    .welcome-box {
+      background-color: #ffefa8;
+      padding: 40px;
+      margin: 0 auto;
+      width: 60%;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-box">
+    <h1>ยินดีต้อนรับ!</h1>
+    <p id="welcomeMessage"></p>
+  </div>
+
+  <script>
+    // JavaScript แสดงข้อความต้อนรับ
+    const name = prompt("กรุณากรอกชื่อของคุณ:");
+    const welcomeText = name ? `สวัสดีคุณ ${name} ยินดีต้อนรับสู่เว็บไซต์ของเรา!` : "ยินดีต้อนรับผู้เยี่ยมชม!";
+    document.getElementById("welcomeMessage").textContent = welcomeText;
+  </script>
+
+</body>
+</html>

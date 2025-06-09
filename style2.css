@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(pic/download.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; 
+  margin: 0;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 3em;
+}
+
+p {
+  color: #555;
+  font-size: 1.5em;
+}
+
+.welcome-box {
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}

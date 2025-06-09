@@ -1,0 +1,14 @@
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f2f2f2;
+      height: 100px;
+    }
+    .flex-item {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      margin: 5px;
+      border-radius: 8px;
+    }
